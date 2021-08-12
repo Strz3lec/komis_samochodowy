@@ -2,15 +2,19 @@
 #define KLIENT_H
 
 class Klient {
+
+    std::string imie, nazwisko, meil;
+
 public:
-    void set_imie(std::string);
-    void set_nazwisko(std::string);
-    void set_meil(std::string);
+
+    void set_imie();
+    void set_nazwisko();
+    void set_meil();
     std::string get_imie();
     std::string get_nazwisko();
     std::string get_meil();
-private:
-    std::string imie, nazwisko, meil;
+    Klient(std::string= "Brak", std::string= "Brak", std::string= "Brak");
+    ~Klient();
 };
 
 
