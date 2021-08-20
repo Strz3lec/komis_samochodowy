@@ -1,20 +1,17 @@
 #include <iostream>
 #include "Klient.h"
 
-void Klient::set_imie()
+void Klient::set_imie(std::string i)
 {
-	std::cout<<"Wprowadź imię"<<std::endl;
-	std::cin >> imie;
+	imie = i;
 }
-void Klient::set_nazwisko()
+void Klient::set_nazwisko(std::string n)
 {
-	std::cout << "Wprowadź nazwisko" << std::endl;
-	std::cin >> nazwisko;
+	nazwisko = n;
 }
-void Klient::set_meil()
+void Klient::set_meil(std::string m)
 {
-	std::cout << "Wprowadź meil" << std::endl;
-	std::cin >> meil;
+	meil = m;
 }
 
 std::string Klient::get_imie()
