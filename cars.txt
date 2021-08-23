@@ -1,0 +1,52 @@
+Ford
+Ecosport
+manulna
+mocno używany
+benzyna
+2018
+10982
+734
+
+bmw
+seria 1
+manulna
+nowy
+benzyna
+2020
+1
+200000
+
+Toyota
+Supra
+automat
+uzywane
+benzyna
+2019
+23000
+297700
+
+Toyota
+Supra
+automat
+u ywane
+benzyna
+2019
+23000
+279000
+
+bmw
+seria 1
+automat
+nowy
+benzyna
+2010
+20988
+209090
+bmw
+sprinter
+manualna
+uzywany
+diesel
+1879
+123456789
+34
