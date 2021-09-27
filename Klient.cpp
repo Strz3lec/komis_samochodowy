@@ -1,20 +1,38 @@
 #include <iostream>
+#include <conio.h>
+#include <vector>
 #include "Klient.h"
 
-void Klient::set_imie()
+void Klient::set_nick(std::string n)
 {
-	std::cout<<"Wprowadź imię"<<std::endl;
-	std::cin >> imie;
+	nick = n;
 }
-void Klient::set_nazwisko()
+
+void Klient::set_imie(std::string i)
 {
-	std::cout << "Wprowadź nazwisko" << std::endl;
-	std::cin >> nazwisko;
+	imie = i;
 }
-void Klient::set_meil()
+void Klient::set_nazwisko(std::string n)
 {
-	std::cout << "Wprowadź meil" << std::endl;
-	std::cin >> meil;
+	nazwisko = n;
+}
+void Klient::set_meil(std::string m)
+{
+	meil = m;
+}
+
+void Klient::set_passw(size_t hashed_passw) {
+	passw = hashed_passw;
+}
+
+void Klient::set_id(int i)
+{
+	id_ = i;
+}
+
+size_t Klient::get_passw()
+{
+	return passw;
 }
 
 std::string Klient::get_imie()
@@ -28,6 +46,17 @@ std::string Klient::get_nazwisko()
 std::string Klient::get_meil()
 {
 	return meil;
+}
+
+std::string Klient::get_nick()
+{
+	return nick;
+}
+
+
+int Klient::return_id()
+{
+	return id_;
 }
 
 Klient::Klient(std::string i, std::string n, std::string m)
